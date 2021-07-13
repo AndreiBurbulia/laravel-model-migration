@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+body {
+  background-image: url(https://images.alphacoders.com/674/674925.png);
+  background-size: cover;
+}
+
 body h1 {
   text-align: center;
   margin: 3rem 0;
@@ -18,13 +23,14 @@ body .container {
 
 body .container .card {
   padding: 1rem;
-  margin: 0 1rem;
-  border: 1px solid black;
+  margin: 1rem;
+  border-radius: 10px;
+  background-color: beige;
 }
 
 body .container .card img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }

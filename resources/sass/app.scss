@@ -6,5 +6,33 @@
 }
 
 body {
-    background-color: aquamarine;
+    h1 {
+        text-align: center;
+        margin: 3rem 0;
+    }
+    .container {
+        width: 1170px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+            padding: 1rem;
+            margin: 0 1rem;
+            border: 1px solid black;
+
+            img {
+                width: 400px;
+                height: 400px;
+                object-fit: cover;
+            }
+
+            p:first-of-type {
+                text-transform: capitalize;
+            }
+            p {
+                padding: 0.25rem 0;
+            }
+        }
+    }
 }
